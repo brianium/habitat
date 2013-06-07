@@ -57,4 +57,10 @@ class CliParserTest extends \PHPUnit_Framework_TestCase
         $vars = $this->parser->parse($input);
         $this->assertEquals($this->expected, $vars);
     }
+
+    public function test_parser_returns_empty_array_when_no_matches()
+    {
+        $vars = $this->parser->parse('this should not match');
+        $this->assertEmpty($vars);
+    }
 }
