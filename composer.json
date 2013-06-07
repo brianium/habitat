@@ -1,0 +1,23 @@
+{
+    "name": "brianium/habitat",
+
+    "description": "A predictable php environment",
+
+    "authors": [
+        {
+            "name": "Brian Scaturro",
+            "email": "scaturrob@gmail.com"
+        }
+    ],
+
+    "require-dev": {
+        "phpunit/phpunit":">=3.7.21",
+        "monolog/monolog": ">=1.5.0"
+    },
+
+    "type": "library",
+
+    "autoload": {
+        "psr-0": {"Habitat": ["src/"]}
+    }
+}
