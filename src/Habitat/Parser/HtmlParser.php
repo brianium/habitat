@@ -10,6 +10,9 @@ class HtmlParser implements ParserInterface
      */
     protected $document;
 
+    /**
+     * Constructor
+     */
     public function __construct()
     {
         $this->document = new \DOMDocument();
