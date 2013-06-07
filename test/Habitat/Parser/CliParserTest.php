@@ -4,7 +4,12 @@ namespace Habitat\Parser;
 class CliParserTest extends \PHPUnit_Framework_TestCase
 {
     protected $parser;
-    
+
+    /**
+     * ENV vars generated from a cli php application
+     *
+     * @var array
+     */
     protected $expected = array(
         'SSH_AGENT_PID' => '1531',
         'GPG_AGENT_INFO' => '/tmp/keyring-ZxnEkM/gpg:0:1',

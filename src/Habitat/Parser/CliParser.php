@@ -1,7 +1,7 @@
 <?php
 namespace Habitat\Parser;
 
-class CliParser 
+class CliParser implements ParserInterface
 {
     /**
      * A pattern for removing extraneous php information
@@ -19,10 +19,7 @@ class CliParser
     private static $lines = '/^(.*)[\s]+=>[\s]+(.*)$/m';
 
     /**
-     * Parse the environment variables into an associative array
-     *
-     * @param $content
-     * @return array
+     * {@inheritdoc}
      */
     public function parse($content)
     {
