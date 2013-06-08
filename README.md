@@ -14,6 +14,8 @@ If $_ENV is not available due to the `variables_order` ini setting, then Habitat
 method will still allow access to all variables that are in `$_ENV`.
 
 ```php
+use Habitat\Habit;
+
 //equivalent of getenv('FOO')
 $foo = Habitat::getenv('FOO');
 
