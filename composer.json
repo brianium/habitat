@@ -13,6 +13,7 @@
         "monolog/monolog": ">=1.5.0"
     },
     "type": "library",
+    "keywords": ["environment", "ENV"]
     "autoload": {
         "psr-0": {"Habitat": ["src/"]}
     }
