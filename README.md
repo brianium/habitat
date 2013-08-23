@@ -1,5 +1,4 @@
-Habitat
-=======
+#Habitat [![Build Status](https://travis-ci.org/brianium/habitat.png?branch=master)](https://travis-ci.org/brianium/habitat)
 > Because we dont always know if $_ENV is available
 
 Habitat is a light weight wrapper over PHP's environment variable
